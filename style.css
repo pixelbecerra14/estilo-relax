@@ -246,7 +246,7 @@ footer .foot-section{
 footer .foot-section .foot-left{
     list-style: none; 
     color: white;
-    margin:15px auto ;   
+    margin:auto ;   
 }
 
 footer .foot-section .foot-left a{
@@ -320,13 +320,15 @@ footer .foot-section .foot-right form .boton{
     }
 
     footer .foot-section .foot-right{
-        margin-right:20px;
+        margin-left: 335px;
     }
     footer .foot-section .foot-left{
         text-align: center;
         justify-content: center;
-        margin-top: 5%;
         font-size: 20px;
+        margin: 0;
+        margin-top:5%;
+        margin-right: 155px;
     }
     footer .foot-section .foot-left .user{
         font-size: 25px;
@@ -367,4 +369,6 @@ footer .foot-section .foot-right form .boton{
         display: flex;
         flex-direction: row;
     }
+
+    
 }
